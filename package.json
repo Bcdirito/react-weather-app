@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.17.1",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
+    "react-router": "^5.1.1",
     "react-scripts": "3.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
+    "dev": "nodemon src/app.js -e js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
